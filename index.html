@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" id="bgimg">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>远古遗迹 | Ancient Ruins官方网站</title>
+<meta name="description" content="远古遗迹 | Ancient Ruins官方网站">
+<meta name="keywords" content="远古遗迹 | Ancient Ruins官方网站">
+<link rel="icon" type="image/x-icon" href="ledis.ico">
+<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/buttons.css">
+<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/showcase.css">
+<link type="text/css" rel="stylesheet" href="style.css" />
+<link rel='stylesheet' href='css/splitting.css'>
+<link rel='stylesheet' href='css/splitting-cells.css'>
+<link rel="stylesheet" href="css/style.css">
+<meta name="referrer" content="no-referrer" />
+<div style="text-align:center;clear:both">
+</div>
+<div class="tooltips">
+<span>
+<iframe src="https://music.163.com/outchain/player?type=0&id=4872889590&auto=1&height=280" width=530 height="300" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+</span>
+</div>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<div id="top">
+<main id="top_main">
+<title>远古遗迹我的世界服务器</title>
+<meta name='description' content='我的世界服务器'>
+<div id="top_logo"><img src="src/tx2.png" onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
+<div id="top_title"><img id="top_title01" alt="" src="src/toptitle01.png">
+<div class="rainbow-text" data-splitting></div>
+<div class="rainbow-text animated" data-splitting>Ancient Ruins | 一个温馨的公益服务器</div>
+<br class="top_hr_style01">
+</div><br><br>
+<div class="showcase-examples l-over l-center">
+  <a href="http://skin.bilisky.xyz:8880" title="皮肤站" class="button button-rounded button-plain button-small-caps button-border" target="_blank">皮肤站</a>
+  <a href="download\lasted.zip" title="点击就能下载啦" class="button button-rounded button-plain button-small-caps button-border" target="_blank">MOD服客户端下载 (官网)</a>
+  <a href="download\snapshot.zip" title="点击就能下载啦" class="button button-rounded button-plain button-small-caps button-border" target="_blank">SnapShot客户端下载 (官网)</a>
+  </div>
+</main>
+</div>
+<footer id="top_footer">
+<span id="top_copyright">
+<hr class="top_hr_style02">
+(°ˊДˋ°)つ友情链接：<a href="http://bbs.bilisky.xyz:8880">BiliSKY DiscuzQ!</a>
+<hr class="top_hr_style02">
+<a href="#">BiliSKY - IM2eR0</a> copyright © 2020 All Rights Reserved. <a href=""></a>
+</span>
+</footer>
+</body>
+<script>
+	function mouseOver(){
+		document.getElementById("mainimg").src="src/tx.png";//鼠标悬浮时的旋转图标
+	}
+	function mouseOut()
+	{
+		document.getElementById('mainimg').src ="src/tx2.png"//默认的旋转图标
+	}
+</script>
+<script type="text/javascript">
+	function change(){
+		var bodyBgs = [];
+		var randomBgIndex = Math.round( Math.random() * 12 );
+		var img1= document.getElementById('bgimg');
+		img1.style.backgroundImage='url(' + bodyBgs[randomBgIndex] + ')';
+	        window.setTimeout(function(){change()},10000);
+	}
+	change();
+</script>
+<script src='js/splitting.min.js'></script>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="src/snow.min.js"></script>        
+<script type="text/javascript">
+
+createSnow('src/', 60);
+</script>
+ <script type="text/javascript">
+
+        function stop() {
+
+            return false;
+
+        }
+
+        document.oncontextmenu = stop;
+
+    </script>
+</html>
